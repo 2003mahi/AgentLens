@@ -1,0 +1,14 @@
+{
+  "include": [
+    "backend",
+    "tests"
+  ],
+  "extraPaths": [
+    ".",
+    "backend",
+    "C:/Users/DELL/AppData/Roaming/Python/Python314/site-packages",
+    "C:/Program Files/Python314/Lib/site-packages"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false
+}

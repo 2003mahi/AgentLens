@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+pydantic
+supabase
+pytest
+httpx
+psycopg2-binary

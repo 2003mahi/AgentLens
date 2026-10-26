@@ -1,0 +1,38 @@
+# Secrets & Environment
+.env
+.env.*
+!.env.example
+
+# Exclude Markdown and doc metadata files per request
+*.md
+**/*.md
+*.metadata.json
+**/*.metadata.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+*.egg-info/
+build/
+.dist/
+
+# SQLite & Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node & Frontend dependencies/build
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.npm/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,45 @@
+# pyproject.toml for project configuration
+
+[project]
+name = "ai_execution_plan"
+version = "0.1.0"
+description = "AI Execution Plan backend and frontend"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "alembic",
+]
+
+[project.optional-dependencies]
+# Development and testing dependencies
+dev = [
+    "pytest-asyncio",
+    "httpx",
+]
+
+[tool.black]
+line-length = 88
+skip-string-normalization = false
+target-version = ["py312"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pyright]
+include = ["backend", "tests"]
+extraPaths = [
+    ".",
+    "backend",
+    "C:/Users/DELL/AppData/Roaming/Python/Python314/site-packages",
+    "C:/Program Files/Python314/Lib/site-packages"
+]
+reportMissingImports = false
+reportMissingTypeStubs = false
+
