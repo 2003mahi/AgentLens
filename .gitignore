@@ -6,6 +6,7 @@
 # Exclude Markdown and doc metadata files per request
 *.md
 **/*.md
+!README.md
 *.metadata.json
 **/*.metadata.json
 
